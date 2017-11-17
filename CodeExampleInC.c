@@ -85,55 +85,55 @@ int main (){
                     } else {
                         switch (tipoaluguel){
                             case 1:
-                            if(predio[andar][sala] == '*'){
-                                predio[andar][sala] = 'D';
-                                printf("------------------------------------------------------\n");
-                                printf("SALA ALUGADA COM SUCESSO - TIPO: DIARIO\n");
-                                printf("------------------------------------------------------\n");
-                            } else {
-                                printf("------------------------------------------------------\n");
-                                printf("A SALA JA ESTA ALUGADA\n");
-                                printf("------------------------------------------------------\n");
-                            }
+                                if(predio[andar][sala] == '*'){
+                                    predio[andar][sala] = 'D';
+                                    printf("------------------------------------------------------\n");
+                                    printf("SALA ALUGADA COM SUCESSO - TIPO: DIARIO\n");
+                                    printf("------------------------------------------------------\n");
+                                } else {
+                                    printf("------------------------------------------------------\n");
+                                    printf("A SALA JA ESTA ALUGADA\n");
+                                    printf("------------------------------------------------------\n");
+                                }
                             break;
     
                             case 2:
-                            if(predio[andar][sala] == '*'){
-                                predio[andar][sala] = 'S';
-                                printf("------------------------------------------------------\n");
-                                printf("SALA ALUGADA COM SUCESSO - TIPO: SEMANAL\n");
-                                printf("------------------------------------------------------\n");
-                            } else {
-                                printf("------------------------------------------------------\n");
-                                printf("A SALA JA ESTA ALUGADA\n");
-                                printf("------------------------------------------------------\n");
-                            }
+                                if(predio[andar][sala] == '*'){
+                                    predio[andar][sala] = 'S';
+                                    printf("------------------------------------------------------\n");
+                                    printf("SALA ALUGADA COM SUCESSO - TIPO: SEMANAL\n");
+                                    printf("------------------------------------------------------\n");
+                                } else {
+                                    printf("------------------------------------------------------\n");
+                                    printf("A SALA JA ESTA ALUGADA\n");
+                                    printf("------------------------------------------------------\n");
+                                }
                             break;
     
                             case 3:
-                            if(predio[andar][sala] == '*'){
-                                predio[andar][sala] = 'M';
-                                printf("------------------------------------------------------\n");
-                                printf("SALA ALUGADA COM SUCESSO - TIPO: MENSAL\n");
-                                printf("------------------------------------------------------\n");
-                            } else {
-                                printf("------------------------------------------------------\n");
-                                printf("A SALA JA ESTA ALUGADA\n");
-                                printf("------------------------------------------------------\n");
-                            }
+                                if(predio[andar][sala] == '*'){
+                                    predio[andar][sala] = 'M';
+                                    printf("------------------------------------------------------\n");
+                                    printf("SALA ALUGADA COM SUCESSO - TIPO: MENSAL\n");
+                                    printf("------------------------------------------------------\n");
+                                } else {
+                                    printf("------------------------------------------------------\n");
+                                    printf("A SALA JA ESTA ALUGADA\n");
+                                    printf("------------------------------------------------------\n");
+                                }
                             break;
                             
                             case 4:
-                            if(predio[andar][sala] == '*'){
-                                predio[andar][sala] = 'A';
-                                printf("------------------------------------------------------\n");
-                                printf("SALA ALUGADA COM SUCESSO - TIPO: ANUAL\n");
-                                printf("------------------------------------------------------\n");
-                            } else {
-                                printf("------------------------------------------------------\n");
-                                printf("A SALA JA ESTA ALUGADA\n");
-                                printf("------------------------------------------------------\n");
-                            }
+                                if(predio[andar][sala] == '*'){
+                                    predio[andar][sala] = 'A';
+                                    printf("------------------------------------------------------\n");
+                                    printf("SALA ALUGADA COM SUCESSO - TIPO: ANUAL\n");
+                                    printf("------------------------------------------------------\n");
+                                } else {
+                                    printf("------------------------------------------------------\n");
+                                    printf("A SALA JA ESTA ALUGADA\n");
+                                    printf("------------------------------------------------------\n");
+                                }
                             break;
                         }
                     }
